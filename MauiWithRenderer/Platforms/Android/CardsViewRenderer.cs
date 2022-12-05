@@ -10,10 +10,12 @@ using System.Threading.Tasks;
 
 namespace MauiWithRenderer.Platforms.Android
 {
-    public class CardsViewRenderer : VisualElementRenderer<CardsView>  // Microsoft.Maui.Controls.Handlers.Compatibility.VisualElementRenderer<CardsView> 
-    {
-        public CardsViewRenderer(Context context) : base(context)
-        {
-        }
-    }    
+
+    ////public class CardsViewRenderer : VisualElementRenderer<CardsView>  // Microsoft.Maui.Controls.Handlers.Compatibility.VisualElementRenderer<CardsView> 
+    //public class CardsViewRenderer : Microsoft.Maui.Controls.Handlers.Compatibility.VisualElementRenderer<CardsView>
+    //{
+    //    public CardsViewRenderer(Context context) : base(context)
+    //    {
+    //    }
+    //}    
 }

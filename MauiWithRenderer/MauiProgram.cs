@@ -8,8 +8,11 @@ public static class MauiProgram
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
-		builder
-			.UseMauiApp<App>()
+
+        // demo of usage AddCompatibilityRenderer(..) --> non working on Android cause of MAUI bug https://github.com/dotnet/maui/issues/9936
+
+        builder
+            .UseMauiApp<App>()
             .UseMauiCompatibility()
             .ConfigureMauiHandlers(handlers =>
             {
